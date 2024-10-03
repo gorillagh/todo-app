@@ -4,6 +4,8 @@ import AddTodo from './pages/AddTodo'
 import Todos from './pages/Todos'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import RootLayout from './layouts/RootLayout'
+import { ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const router = createBrowserRouter([
@@ -19,6 +21,7 @@ function App() {
 
   return (
     <>
+    <ToastContainer />
     <RouterProvider router={router}/>
     </>
   )
