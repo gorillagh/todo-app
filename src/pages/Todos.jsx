@@ -47,7 +47,7 @@ const Todos = () => {
       <div className="w-full max-w-lg">
         <div className="flex justify-between align-middle mb-6 items-center">
           <h1 className="text-3xl font-bold text-gray-900  text-center">
-            Duberch's Todos
+            Governor's Todos
           </h1>
           <Link
             to="/add"
